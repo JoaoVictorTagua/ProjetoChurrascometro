@@ -1,0 +1,61 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(86, 186, 245);
+    padding: 20px;
+    border-radius: 10px; 
+ 
+
+}
+
+#inputs{
+
+    width: 50%;
+    margin: auto;
+    
+}
+
+input{
+    width: 100%;
+    display: block; /*deixar os input um do lado do outro*/
+    padding: 5px;
+    box-sizing: border-box; /*para não deixar os input mais para um lado*/
+    margin-bottom: 10px; /*espaçamento entre os input*/ 
+    
+    
+}
+
+#calc{
+    width: 49%;
+    border-style: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#clear{
+    width: 49%;
+    border-style: none;
+    padding: 5px;
+}
+
+#calc:hover{
+    background-color: rgb(207, 207, 207) ;
+
+}
+#clear:hover{
+    background-color: rgb(207, 207, 207) ;
+
+}
+
+#result{  
+  width: 50%;
+  margin: auto;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
